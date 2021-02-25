@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    height: 10rem;
+    width: auto;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+body {
+    background-color: #191919;
+}
+
+.body_1 {
+    margin-top: -11px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Assets/1.jpeg");
+    height: 40rem;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo img {
+    margin-top: 2.1875rem;
+    margin-left: 1%;
+    float: left;
+    width: 9.375rem;
+    height: auto;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin: auto;
+    margin-top: 60px;
+    margin-right: 0px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover {
+    border: 1px solid black;
+    color: #000;
+    box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.2);
+    animation-name: buttons;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    transform: scale(1.2);
+}
+
+.img_program {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.title {
+    color: white;
+    font-size: 3.125rem;
+    margin-left: 20%;
+    padding-top: 12%;
+}
+
+.description {
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+    padding-top: 5%;
+}
+
+.cta_button {
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 12.5rem;
+    height: 2.2rem;
+    border-radius: 1.3rem;
+}
+
+.cta_button:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+
+/* main body style */
+
+.body_2 {
+    background-color: #191919;
+}
+
+.body_2_title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    margin-top: 10%;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0%;
+}
+
+.container {
+    width: 80%;
+    height: 43.75rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #191919;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+.box {
+    margin: auto;
+    background-color: #191919;
+    width: 300px;
+    padding: 20px 20px 25px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+    border: 1px solid white;
+    transform: scale(1.2);
+    animation-fill-mode: forwards;
+}
+
+.boxh3 {
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 4rem;
+}
+
+.box_button {
+    background-color: transparent;
+    color: white;
+    font-weight: 50;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    padding: 0.315rem 3.75rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.box_button:hover {
+    cursor: pointer;
+    color: #191919;
+    background-color: white;
+    margin: 4rem 0rem 0rem 0rem;
+}
+
+.box_img {
+    height: auto;
+    width: 100%;
+    box-shadow: 0 15px 45px rgba(255, 255, 255, 0.1);
+}
+
+.program {
+    width: 80%;
+    height: 38rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: black;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1350px) {
+    .program {
+        flex-direction: row;
+    }
+}
+
+.img {
+    height: 70%;
+    width: auto;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.programtext {
+    font-size: 20px;
+    height: 70%;
+    width: auto;
+    background-color: black;
+    margin: auto;
+    margin-right: 2rem;
+    justify-self: left;
+}
+
+#left {
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.h2title {
+    color: white;
+    font-size: large;
+    margin-top: 3rem;
+}
+
+.programTitle {
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.contact {
+    height: 45rem;
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.number {
+    color: white;
+    font-size: large;
+    margin-top: 2rem;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.number:hover {
+    transform: scale(3);
+}
+
+.name_input {
+    color: white;
+    font-weight: bold;
+    background: #191919;
+    width: 80%;
+    padding: 0.6rem;
+    margin-top: 3rem;
+    border: 1px solid white;
+    transition: all 0.4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.name_input:valid {
+    border: 2px solid white;
+}
+
+.name_input_padding {
+    height: 7rem;
+    overflow-y: auto;
+}
+
+#contact_form {
+    text-align: center;
+    width: auto;
+}
+
+#map {
+    position: relative;
+    height: 25rem;
+    width: 100%;
+    background-color: royalblue;
+}
+
+#video {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+footer {
+    width: 100%;
+    height: 13rem;
+    background-color: black;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo_title {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 3rem;
+    background-color: black;
+}
+
+#footer_text_design {
+    background-color: black;
+    color: white;
+    padding-top: 0.6rem;
+}
+
+.footer_container {
+    height: 100%;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.semiconteiner {
+    margin-top: 3rem;
+    color: wheat;
+}
+
+h4 {
+    color: white;
+    margin-left: 5%;
+    font-size: x-small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.galerie_box {
+    background-color: #191919;
+    width: 80%;
+    margin: auto;
+    margin-top: 15rem;
+}
+
+.galerie_title {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid_img {
+    max-width: 100%;
+    width: auto;
+    height: 15rem;
+    margin-top: 4rem;
+    transition: 0.2s ease-in-out;
+    border: 2px solid white;
+    margin: 2rem 2rem 0px 0px;
+}
+
+.grid_img:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px grey;
+}
+
+.ytVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.GoogleMap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainmenu {}
+
+@media screen and (max-width: 600px) {
+    .body_1 {
+        height: 20rem;
+        width: auto;
+        justify-content: center;
+    }
+    .title {
+        font-size: 2rem;
+        color: white;
+        margin: 0px 0px 0px;
+        padding: opx;
+        text-align: center;
+    }
+    .description {
+        color: white;
+        font-size: 0.7rem;
+        font-weight: 500;
+        text-align: center;
+        line-height: 25px;
+        margin: 0px 1rem 0px;
+    }
+    .cta_button {
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .body_2_title {
+        font-size: 2rem;
+    }
+    .container {
+        padding: 0px 4px 0px;
+        justify-content: center;
+    }
+    h3 {
+        font-size: 0.8rem;
+        color: whie;
+        padding: 1rem 1rem 1rem;
+        line-height: 25px;
+    }
+    .ytVideo {
+        width: 100%;
+        height: 100%;
+    }
+    .footer_container {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+    }
+    #footer_text_design {
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+    footer {
+        height: 19rem;
+        background-color: black;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        margin-top: 2.1875rem;
+        margin-left: 1%;
+        width: 9.375rem;
+        height: auto;
+    }
+}
